@@ -6,21 +6,23 @@
 - Semi-supervised learning
 - Multi-task learning
 - Masked langauge modeling
+- Auto-labeling
 - Data augmentation
 - Sustainability
 
 ## Data
-
 - Korean hate / non-hate speech samples
 - Training: Labeled + Unlabeled
 - Test: Labeled
 
-<img width="648" height="163" alt="data" src="https://github.com/user-attachments/assets/160b804d-110f-4235-a255-1743ef9b5fc8" />
+<img width="200" height="100" alt="data" src="https://github.com/user-attachments/assets/160b804d-110f-4235-a255-1743ef9b5fc8" />
 
 ## Language model
 - Pre-trained language models: KoBERT, KoELECTRA
 
 ## Experiment
-[experimental workflow.pdf](https://github.com/user-attachments/files/24009052/experimental.workflow.pdf)
+
+<img width="681" height="599" alt="experimental workflow" src="https://github.com/user-attachments/assets/7f53f18c-47a8-4b56-8dc1-8f2d178fbb0c" />
+
 
 
