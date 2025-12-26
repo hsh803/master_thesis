@@ -6,19 +6,30 @@
 \# Hate speech detection # Semi-supervised learning # Multi-task learning # Masked langauge modeling
 \# Auto-labeling # Synthetic data # Data augmentation # Sustainability
 
+## Introduction
+- This thesis proposes a sustainable alternative to supervised learning for Korean hate speech detection using semi-supervised multi-task learning.
+
 ## Data
 - Korean hate/non-hate speech texts (Combined from different sources)
 - Training: Labeled + Unlabeled
 - Test: Labeled
 
-<img width="450" height="250" alt="data" src="https://github.com/user-attachments/assets/160b804d-110f-4235-a255-1743ef9b5fc8" />
+<img width="400" height="200" alt="data" src="https://github.com/user-attachments/assets/160b804d-110f-4235-a255-1743ef9b5fc8" />
 
-## Language models
-- Pre-trained KoBERT, KoELECTRA
+## Models
+- Pre-trained KoBERT (https://github.com/SKTBrain/KoBERT), KoELECTRA (https://github.com/monologg/KoELECTRA)
+
+## Evaluation
+- For detection: Precision, recall, F1
+- For auto-labeling: Confidence score, manual evaluation for samples by the author
 
 ## Experiments
+- Data setup: thesis_data_setup.py
+- First fine-tuning: thesis_kobert_finetune.py, thesis_koelectra_finetune.py
+- Second fine-tuning: thesis_kobert_finetune_second.py, thesis_koelectra_finetune_second.py
+- Generate synthetic datasets: thesis_pseudo_data_synthetic_data.py
 
-<img width="580" height="450" alt="experimental workflow" src="https://github.com/user-attachments/assets/7f53f18c-47a8-4b56-8dc1-8f2d178fbb0c" />
+<img width="550" height="450" alt="experimental workflow" src="https://github.com/user-attachments/assets/7f53f18c-47a8-4b56-8dc1-8f2d178fbb0c" />
 
 ## Results
 
