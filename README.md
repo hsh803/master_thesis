@@ -30,6 +30,8 @@
 - Generate synthetic datasets: thesis_pseudo_data_synthetic_data.py
 
 <img width="550" height="450" alt="experimental workflow" src="https://github.com/user-attachments/assets/7f53f18c-47a8-4b56-8dc1-8f2d178fbb0c" />
+<img width="550" height="450" alt="image" src="https://github.com/user-attachments/assets/417100e4-2a6a-4bdf-aafb-a012e6bce9d8" />
+
 
 ## Results
 
