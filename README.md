@@ -1,6 +1,7 @@
 # Master thesis
 - Language Technology  Master's program, Uppsala University
 - Designing Korean hate speech detection models with Auto-labeling using Semi-supervised Multi-task learning: Sustainable approach
+- [Link](https://uu.diva-portal.org/smash/record.jsf?pid=diva2:2020250) to the paper
 
 ## Keywords
 \# Hate speech detection # Semi-supervised learning # Multi-task learning # Masked langauge modeling
