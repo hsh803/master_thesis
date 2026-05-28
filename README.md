@@ -15,7 +15,7 @@
 - Training: Labeled + Unlabeled
 - Test: Labeled
 
-<img width="400" height="200" alt="data" src="https://github.com/user-attachments/assets/160b804d-110f-4235-a255-1743ef9b5fc8" />
+<img width="380" height="150" alt="data" src="https://github.com/user-attachments/assets/160b804d-110f-4235-a255-1743ef9b5fc8" />
 
 ## Models
 - Pre-trained [KoBERT](https://github.com/SKTBrain/KoBERT), [KoELECTRA](https://github.com/monologg/KoELECTRA)
